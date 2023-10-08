@@ -4,14 +4,14 @@
   переключая тему
 */
 .theme_dark {
-  --text-color: #F1B2CE; 
-  --title-color: #DB00FF; 
-  --title-shadow: #FF0070; 
-  --text-title-color: #FF0070; 
-  --accent-color: #FF0070; 
-  --accent-hover-color: #ff99c6; 
-  --accent-bg-color: #FF0070; 
-  --accent-text-color: #000028; 
+  --text-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --title-shadow: #FF0070;
+  --text-title-color: #FF0070;
+  --accent-color: #FF0070;
+  --accent-hover-color: #ff99c6;
+  --accent-bg-color: #FF0070;
+  --accent-text-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
 }
 
@@ -31,6 +31,6 @@
     --accent-color: #FF0070;
     --accent-bg-color: #FF0070;
     --accent-text-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png); 
-  } 
+    --bg-image: url(../images/cover-image-dark.png);
+  }
 }

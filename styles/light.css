@@ -44,10 +44,10 @@
     --accent-hover-color: #adadab;
     --accent-bg-color: #FF8DCB;
     --accent-text-color: #353430;
-    --bg-image: url(../images/cover-image-light.png);   
+    --bg-image: url(../images/cover-image-light.png);
   }
 
   .header__rec {
     display: none;
-  }   
+  }
 }
