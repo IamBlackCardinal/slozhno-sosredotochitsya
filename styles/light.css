@@ -4,34 +4,25 @@
   переключая тему
 */
 
-.theme_light {
-  --text-color: #353430;
-  --title-color: #FFC2E6;
-  --title-shadow: #FF8DCB;
-  --text-title-color: #353430;
-  --accent-color: #353430;
-  --accent-hover-color: #adadab;
-  --accent-bg-color: #FF8DCB;
-  --accent-text-color: #353430;
-  --bg-image: url(../images/cover-image-light.png);
-}
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --text-color: #353430;
+  --title-color: #FFC2E6;
+  --title-shadow: #FF8DCB;
+  --title-shadow-desktop: #FF0070;
+  --text-title-color: #353430;
+  --accent-color: #353430;
+  --accent-hover-color: rgba(50, 49, 45, 0.40);
+  --accent-bg-color: #FF8DCB;
+  --accent-text-color: #353430;
+  --bg-image: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .header__rec {
+.theme_light .header__rec {
   display: none;
-}
-
-@media (min-width: 1024px) /*and (min-height: 768px)*/ {
-  .page.theme_light 
-  .header__title {
-    text-shadow: 4px 4px 0px #FF0070;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,7 +32,7 @@
     --title-shadow: #FF8DCB;
     --text-title-color: #353430;
     --accent-color: #353430;
-    --accent-hover-color: #adadab;
+    --accent-hover-color: rgba(50, 49, 45, 0.40);
     --accent-bg-color: #FF8DCB;
     --accent-text-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
