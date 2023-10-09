@@ -20,18 +20,3 @@
   --accent-text-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-  --text-color: #F1B2CE;
-  --title-color: #DB00FF;
-  --title-shadow: #FF0070;
-  --title-shadow-desktop: #FF0070;
-  --text-title-color: #FF0070;
-  --accent-color: #FF0070;
-  --accent-hover-color: rgba(255, 0, 112, 0.40);
-  --accent-bg-color: #FF0070;
-  --accent-text-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  }
-}
